@@ -60,9 +60,9 @@ public class BankDetails {
 	@JsonProperty("state")
 	private String state;
 	
-	public BankDetails() {
+	/*public BankDetails() {
 		
-	}
+	}*/
 	
 	public BankDetails(Object[] columns) {
 		// TODO Auto-generated constructor stub

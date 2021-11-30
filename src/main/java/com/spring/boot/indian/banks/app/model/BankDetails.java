@@ -61,10 +61,6 @@ public class BankDetails {
 	@JsonProperty("state")
 	private String state;
 	
-	/*public BankDetails() {
-		
-	}*/
-	
 	public BankDetails(Object[] columns) {
 		// TODO Auto-generated constructor stub
 		 this.count = (columns[0] != null)?((java.math.BigInteger)columns[0]).longValue():0;
